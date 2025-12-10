@@ -118,7 +118,7 @@ The code was last run on a **standard desktop machine with MacOS with an interne
 
 The replication package contains four R do-files:
 
-1. **`main.R`**: Master file that creates required folders, runs all programs in sequence and creates a log file
+1. **`main.R`**: Main file that creates required folders, runs all programs in sequence and creates a log file
 2. **`code/download_raw_data.R`**: Downloads raw unemployment and CPI data from FRED and saves them as Parquet datasets in `data/raw/`
 3. **`code/create_analysis_data.R`**: Merges the raw datasets, calculates year-over-year inflation rates, formats dates, and creates the final analysis dataset
 4. **`code/analyze_data.R`**: Produces the scatterplot with fitted line and runs the regression analysis
